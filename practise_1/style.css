@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "MuseoCyrl-700";
+  src: url("/fonts/MuseoCyrl-700.woff") format("woff"),
+    url("/fonts/MuseoCyrl-700.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #202020;
+}
+.main {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 62px;
+  padding-top: 62px;
+  align-items: center;
+  margin-bottom: 71px;
+}
+
+.container-description {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #f1f1f1;
+  z-index: 10;
+  top: 0;
+}
+
+.image-block {
+  margin-right: 120px;
+  position: relative;
+}
+
+.main-sale {
+  padding: 12px 15px;
+  background-color: #bb0303;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1140px;
+  margin: auto;
+  font-size: 14px;
+  /* border: 1px black solid; */
+  padding-bottom: 24px;
+
+  padding-top: 20px;
+}
+.menu__items {
+  padding-left: 11px;
+  padding-right: 11px;
+  color: inherit;
+  text-decoration: none;
+}
+.login {
+  color: inherit;
+  text-decoration: none;
+}
+.title {
+  text-transform: uppercase;
+}
+.book-name {
+  font-family: "MuseoCyrl-700";
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.peoples {
+  width: 400px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.container-description {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.description-items {
+  flex-basis: 48%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.button {
+  padding: 20px 50px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+.button-primary {
+  color: white;
+  background-color: #f89c02;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-butline {
+  color: #f89c02;
+  text-decoration: none;
+  border: 2px solid #f89c02;
+  margin-left: 20px;
+}
+.price {
+  margin-top: 49px;
+  margin-bottom: 49px;
+  display: flex;
+  align-items: center;
+}
+
+.price-tag {
+  font-size: 55px;
+  font-weight: 400;
+  margin-right: 64px;
+}
+.like-tag {
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about {
+  background-color: #f1f1f1;
+}
+.author-avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 21px;
+}
+
+.about-container {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  flex-shrink: 0;
+}
+
+.about-main {
+  max-width: 454px;
+  margin-right: 130px;
+  margin-bottom: 100px;
+}
+.author-about {
+  background-color: white;
+  padding: 68px 53px;
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  border-radius: 10px;
+  border: 1px solid #f3f3f3;
+  background-color: #ffffff;
+  max-width: 553px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  align-self: flex-start;
+}
+
+.about-title {
+  margin-top: 100px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.author-sourses {
+  align-self: center;
+}
+.author-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.athor-about-about {
+  margin-top: 27px;
+  width: 381;
+}
+.author-site {
+  color: inherit;
+  text-decoration: none;
+}
+
+.readers {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 110px;
+}
+.readers-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 57px;
+}
+
+.row-f,
+.row-s {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #f1f1f1;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  max-width: 1140px;
+  margin: auto;
+}
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+}
+.footer-list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.list-items {
+  margin-bottom: 17px;
+}
+
+.to-up {
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  padding: 18px;
+  position: fixed;
+  right: 50px;
+  bottom: 45px;
+}

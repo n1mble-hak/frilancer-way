@@ -1,0 +1,7 @@
+https://transfonter.org/ — Конвертер шрифтов Transfonter
+https://onlinefontconverter.com/ — Конвертер шрифтов
+http://webfonts.pro/ — Веб шрифты
+http://fonts.google.com/ — Шрифты от Google
+https://www.methodlab.ru/articles/font_display — Свойство font-display
+https://dev-gang.ru/article/dzhon-kuperman-rwmzdux7rm/ — Свойство font-display: swap
+https://developer.mozilla.org/ru/docs/Web/CSS/@font-face/font-display — Свойство font-display
